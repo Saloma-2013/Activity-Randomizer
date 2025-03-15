@@ -1,0 +1,34 @@
+body {
+  background-color: #f5c6bb;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  align-items: center;
+}
+
+h1 {
+  background-color: #ffcdb2;
+  box-shadow: 5px 5px 5px #a05b4b;
+}
+
+.container {
+  width: 600px;
+  background-color: rgb(211, 163, 157);
+  border: #a05b4b groove;
+  padding: 14px;
+}
+input,
+button {
+  width: calc(50%);
+  box-sizing: border-box;
+  margin: 5px;
+  padding: 5px;
+  font-size: large;
+}
+#Result {
+  font-size: larger;
+  font-weight: bolder;
+}
